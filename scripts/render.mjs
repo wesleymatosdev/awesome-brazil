@@ -19,10 +19,10 @@ const page = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Awesome Brazil — o melhor do Brasil, curado em comunidade</title>
-  <meta name="description" content="Lista curada do melhor do Brasil: tecnologia aberta, civic tech, dados, comunidades, cultura e aprendizado.">
+  <title>Awesome Brazil — civic tech e tecnologia aberta no Brasil</title>
+  <meta name="description" content="Lista curada de civic tech e tecnologia aberta no Brasil: transparência, dados abertos, APIs públicas e comunidades.">
   <meta property="og:title" content="Awesome Brazil">
-  <meta property="og:description" content="Lista curada do melhor do Brasil: tecnologia aberta, civic tech, dados, comunidades, cultura e aprendizado.">
+  <meta property="og:description" content="Lista curada de civic tech e tecnologia aberta no Brasil: transparência, dados abertos, APIs públicas e comunidades.">
   <meta property="og:locale" content="pt_BR">
   <style>${css}</style>
   <style>
