@@ -9,6 +9,8 @@
     "test": "npm run lint"
   },
   "devDependencies": {
-    "awesome-lint": "^2.3.0"
+    "awesome-lint": "^2.3.0",
+    "github-markdown-css": "^5.9.0",
+    "marked": "^18.1.1"
   }
 }
