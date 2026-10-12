@@ -19,8 +19,11 @@ const page = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Awesome Iniciativas — iniciativas brasileiras de tecnologia aberta</title>
-  <meta name="description" content="Lista curada de iniciativas brasileiras de tecnologia aberta: dados abertos, civic tech, comunidades e ferramentas.">
+  <title>Awesome Brazil — o melhor do Brasil, curado em comunidade</title>
+  <meta name="description" content="Lista curada do melhor do Brasil: tecnologia aberta, civic tech, dados, comunidades, cultura e aprendizado.">
+  <meta property="og:title" content="Awesome Brazil">
+  <meta property="og:description" content="Lista curada do melhor do Brasil: tecnologia aberta, civic tech, dados, comunidades, cultura e aprendizado.">
+  <meta property="og:locale" content="pt_BR">
   <style>${css}</style>
   <style>
     .markdown-body { box-sizing: border-box; min-width: 200px; max-width: 880px; margin: 0 auto; padding: 45px; }
