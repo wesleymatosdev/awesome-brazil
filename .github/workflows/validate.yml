@@ -1,26 +1,21 @@
-name: Validar dados do hub
+name: Validar lista
 
 on:
   pull_request:
     paths:
-      - "data/**"
+      - "README.md"
   push:
     branches: [main]
     paths:
-      - "data/**"
+      - "README.md"
 
 jobs:
-  validate:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: "22"
-
-      - name: Instalar dependências de validação
-        run: npm install --no-save ajv ajv-formats
-
-      - name: Validar apps.json contra o schema
-        run: node scripts/validate.mjs
+      - run: npm install --no-audit --no-fund
+      - run: npx awesome-lint
