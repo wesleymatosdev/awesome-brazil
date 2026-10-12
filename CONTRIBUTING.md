@@ -31,7 +31,7 @@ npm test        # awesome-lint + verificação de links
 
 ### Opção B — Issue (sem código)
 
-Use o template **"Nova iniciativa"** ao [criar uma issue](https://github.com/wesleymatosdev/awesome-iniciativas/issues/new?template=nova-iniciativa.yml). Alguém da comunidade transforma sua sugestão em PR.
+Use o template **"Nova iniciativa"** ao [criar uma issue](https://github.com/wesleymatosdev/awesome-brazil/issues/new?template=nova-iniciativa.yml). Alguém da comunidade transforma sua sugestão em PR.
 
 ## Sugerir uma nova seção
 

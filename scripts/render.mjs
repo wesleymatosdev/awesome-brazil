@@ -2,7 +2,7 @@
 import { readFileSync, writeFileSync, mkdirSync, copyFileSync } from "node:fs";
 import { Marked } from "marked";
 
-const REPO = "https://github.com/wesleymatosdev/awesome-iniciativas";
+const REPO = "https://github.com/wesleymatosdev/awesome-brazil";
 
 const md = readFileSync("README.md", "utf8");
 const marked = new Marked({ gfm: true });
