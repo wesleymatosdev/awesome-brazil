@@ -1,0 +1,26 @@
+name: "Reportar conteúdo ⚠️"
+description: "Reporte uma iniciativa listada com problema (link quebrado, conteúdo indevido, dados errados)."
+title: "[Report] "
+labels: ["report"]
+body:
+  - type: input
+    id: initiative
+    attributes:
+      label: Iniciativa
+      description: "Nome exatamente como aparece no hub."
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qual é o problema?
+      placeholder: "Link quebrado / descrição incorreta / conteúdo impróprio / projeto descontinuado…"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidência (opcional)
+      description: "Links, prints, datas — o que ajudar a confirmar."
+    validations:
+      required: false

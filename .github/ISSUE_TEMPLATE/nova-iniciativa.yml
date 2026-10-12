@@ -1,0 +1,75 @@
+name: "Nova iniciativa 💡"
+description: "Sugira uma iniciativa (app, site, comunidade, projeto) para entrar no hub — sem precisar mexer em código."
+title: "[Iniciativa] "
+labels: ["nova-iniciativa"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por sugerir! Com essas informações, alguém da comunidade abre o PR que adiciona sua iniciativa ao catálogo.
+  - type: input
+    id: name
+    attributes:
+      label: Nome da iniciativa
+      placeholder: "ex.: Querido Diário"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrição
+      description: "O que ela faz, em uma ou duas frases (10–280 caracteres)."
+      placeholder: "Abre os diários oficiais dos municípios numa busca unificada…"
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Site (HTTPS)
+      placeholder: "https://…"
+    validations:
+      required: true
+  - type: input
+    id: repo
+    attributes:
+      label: Repositório de código (se houver)
+      placeholder: "https://github.com/…"
+    validations:
+      required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoria
+      options:
+        - dados-abertos
+        - comunidades
+        - ferramentas
+        - outra (proponha uma nova na última pergunta)
+    validations:
+      required: true
+  - type: input
+    id: tags
+    attributes:
+      label: Tags
+      description: "Até 8 palavras-chave, separadas por vírgula."
+      placeholder: "transparência, busca, dados"
+    validations:
+      required: false
+  - type: textarea
+    id: new-category
+    attributes:
+      label: Nova categoria (opcional)
+      description: "Se marcou 'outra', qual categoria você propõe e por quê?"
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Confirmações
+      options:
+        - label: "A iniciativa é real, acessível e tem conteúdo HTTPS próprio."
+          required: true
+        - label: "Não é duplicata de algo já listado no hub."
+          required: true
+        - label: "Li e concordo com o Código de Conduta."
+          required: true

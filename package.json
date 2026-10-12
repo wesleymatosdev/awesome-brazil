@@ -1,0 +1,15 @@
+{
+  "name": "community-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hub colaborativo de iniciativas de tecnologia — site estático + catálogo em JSON validado",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "serve": "python3 -m http.server 8080"
+  },
+  "devDependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  }
+}
