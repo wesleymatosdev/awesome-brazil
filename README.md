@@ -17,6 +17,7 @@ Inspirado no ecossistema [awesome](https://github.com/sindresorhus/awesome). Em 
 ## Dados abertos e plataformas
 
 - [Brasil.IO](https://brasil.io) - Datasets públicos brasileiros tratados e gratuitos: torna dados públicos acessíveis em formato analisável, prontos para análise. ([código](https://github.com/turicas/brasil.io))
+- [cTribNac](https://notafiscalafiliados.com.br/guia/codigo-tributacao-nacional-nfse-lista) - Tabela aberta dos 338 códigos de tributação nacional da NFS-e, com busca e download em CSV e JSON (CC BY 4.0), para quem emite ou desenvolve. ([código](https://github.com/transformax2205-droid/codigo-tributacao-nacional-nfse))
 - [Querido Diário](https://queridodiario.ok.org.br) - Abre os diários oficiais dos municípios: busca unificada em publicações dispersas e trancadas em PDF. ([código](https://github.com/okfn-brasil/querido-diario))
 - [Base dos Dados](https://basedosdados.org) - Dados públicos integrados e prontos para análise em SQL, com bibliotecas em Python e R. ([código](https://github.com/basedosdados/mais))
 - [dados.gov.br](https://dados.gov.br) - Portal nacional de dados abertos: repositório oficial com milhares de datasets do governo federal.
